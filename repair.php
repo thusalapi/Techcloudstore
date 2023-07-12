@@ -45,8 +45,8 @@
       <option value="Completed">Completed</option>
     </select><br><br>
   
-    <label for="repair_cost">Repair Cost:</label>
-    <input type="text" id="repair_cost" name="repair_cost" required><br><br>
+    <!-- <label for="repair_cost">Repair Cost:</label>
+    <input type="text" id="repair_cost" name="repair_cost" required><br><br> -->
   
     <label for="return_date">Return Date:</label>
     <input type="date" id="return_date" name="return_date" required><br><br>

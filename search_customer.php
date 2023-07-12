@@ -35,7 +35,7 @@ $stmt->close();
 
 // If there are customers found with the name
 if (count($customer_details) > 0) {
-    echo '<script>alert("Customers found with the name ' . $customer_name . ':\n\n';
+    echo '<script>alert("Customers found with the name - ' . $customer_name . '\n\n';
 
     foreach ($customer_details as $customer) {
         echo 'Customer ID: ' . $customer['customer_id'] . '\n';
