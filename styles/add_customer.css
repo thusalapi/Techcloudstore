@@ -19,7 +19,7 @@
     padding: 20px;
   }
   
-  h1 {
+  h2 {
     font-size: 24px;
     margin-bottom: 20px;
   }
@@ -36,25 +36,11 @@
   }
   
   input[type="text"],
-  textarea {
+  input[type="email"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 15px;
-  }
-  
-  input[type="date"],
-  select {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 15px;
-    appearance: none;
-    -webkit-appearance: none;
-  }
-  
-  textarea {
-    resize: vertical;
   }
   
   input[type="submit"] {
