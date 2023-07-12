@@ -16,7 +16,7 @@ $repair_status = "Pending";
 // $sql = "INSERT INTO Repairs (customer_id, phone_model, problem_description, estimated_cost, assigned_date, repair_status, repair_cost, return_date)
 //         VALUES ('$customer_id', '$phone_model', '$problem_description', '$estimated_cost', '$assigned_date', '$repair_status', '$repair_cost', '$return_date')";
 
-$sql = "INSERT INTO Repairs (customer_id, phone_model, problem_description, estimated_cost, assigned_date, repair_status,)
+$sql = "INSERT INTO Repairs (customer_id, phone_model, problem_description, estimated_cost, assigned_date, repair_status)
         VALUES ('$customer_id', '$phone_model', '$problem_description', '$estimated_cost', '$assigned_date', '$repair_status')";
 
 // Execute the SQL statement

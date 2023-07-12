@@ -48,12 +48,12 @@
       <label for="assigned_date">Assigned Date:</label>
       <input type="date" id="assigned_date" name="assigned_date" required>
     
-      <label for="repair_status">Repair Status:</label>
+      <!-- <label for="repair_status">Repair Status:</label>
       <select id="repair_status" name="repair_status">
         <option value="Pending">Pending</option>
         <option value="In Progress">In Progress</option>
         <option value="Completed">Completed</option>
-      </select>
+      </select> -->
     
       <!-- <label for="repair_cost">Repair Cost:</label>
       <input type="text" id="repair_cost" name="repair_cost" required><br><br> -->

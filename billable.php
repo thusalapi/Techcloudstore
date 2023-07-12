@@ -51,7 +51,7 @@
         <option value="Completed">Completed</option>
       </select><br><br>
 
-      <label for="return_date">Return Date:</label>
+      <label for="return_date">Date:</label>
       <input type="date" id="return_date" name="return_date">
     
       <input type="submit" value="Submit">
