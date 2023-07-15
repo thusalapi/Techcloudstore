@@ -34,6 +34,20 @@ while ($stmt->fetch()) {
 $stmt->close();
 
 // If there are customers found with the name
+// if (count($customer_details) > 0) {
+//     echo '<script>alert("Customers found with the name - ' . $customer_name . '\n\n';
+
+//     foreach ($customer_details as $customer) {
+//         echo 'Customer ID: ' . $customer['customer_id'] . '\n';
+//         echo 'Name: ' . $customer['first_name'] . ' ' . $customer['last_name'] . '\n\n';
+//     }
+
+//     echo '");
+//     </script>';
+// } else {
+//     echo "No customers found with the name " . $customer_name;
+// }
+
 if (count($customer_details) > 0) {
     echo '<script>alert("Customers found with the name - ' . $customer_name . '\n\n';
 
@@ -42,7 +56,8 @@ if (count($customer_details) > 0) {
         echo 'Name: ' . $customer['first_name'] . ' ' . $customer['last_name'] . '\n\n';
     }
 
-    echo '");</script>';
+    echo '");';
+    echo 'window.location.href = "repair.php";</script>'; // Redirect to repair.php
 } else {
     echo "No customers found with the name " . $customer_name;
 }

@@ -27,12 +27,20 @@ $sql .= " ORDER BY r.repair_id DESC LIMIT 1";
 // Execute the SQL statement
 $result = mysqli_query($conn, $sql);
 
+// if ($result && mysqli_num_rows($result) > 0) {
+//     $row = mysqli_fetch_assoc($result);
+//     $latest_repair_id = $row['repair_id'];
+//     echo "Latest Repair ID: " . $latest_repair_id;
+// } else {
+//     echo "No repairs found for the given criteria.";
+// }
+
 if ($result && mysqli_num_rows($result) > 0) {
     $row = mysqli_fetch_assoc($result);
     $latest_repair_id = $row['repair_id'];
-    echo "Latest Repair ID: " . $latest_repair_id;
+    echo "<script>alert('Latest Repair ID: " . $latest_repair_id . "'); window.location = 'billable.php';</script>";
 } else {
-    echo "No repairs found for the given criteria.";
+    echo "<script>alert('No repairs found for the given criteria.'); window.location = 'billable.php';</script>";
 }
 
 // Close the database connection

@@ -22,6 +22,8 @@ $sql = "INSERT INTO Repairs (customer_id, phone_model, problem_description, esti
 // Execute the SQL statement
 if (mysqli_query($conn, $sql)) {
     echo "Repair information inserted successfully.";
+    header("Location: billable.php"); // Redirect to billable.php
+    exit;
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

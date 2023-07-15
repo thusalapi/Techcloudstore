@@ -18,6 +18,8 @@ $phone_number = $_POST["phone_number"];
 // Execute the statement
 if ($stmt->execute()) {
     echo "Customer added successfully.";
+    header("Location: repair.php"); // Redirect to repair.php
+    exit;
 } else {
     echo "Error: " . $stmt->error;
 }
