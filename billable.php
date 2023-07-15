@@ -33,8 +33,10 @@
       <input type="submit" value="Find">
     </form>
     <br><br>
+
+    
     <h1>Billable Information</h1>
-    <form action="insert_billable.php" method="post">
+    <form action="./insert_billable.php" method="post">
       <label for="repair_id">Repair ID:</label>
       <input type="text" id="repair_id" name="repair_id" required>
     

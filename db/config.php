@@ -1,7 +1,7 @@
 <?php 
     $servername = "localhost:3307";
     $username = "root";
-    $dbname = "techcloudstore";
+    $dbname = "techstore";
     $password = "";
     
 

@@ -1,55 +1,18 @@
-/* CSS styles for the invoice */
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.invoice-container {
-    max-width: 600px;
-    margin: 200px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-h2 {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #555;
-}
-
-p {
-    margin-bottom: 10px;
-}
-
-.label {
-    font-weight: bold;
-    display: inline-block;
-    width: 150px;
-}
-
-.value {
-    display: inline-block;
-}
-
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
+body{margin-top:20px;
+    background-color:#eee;
+    }
+    
+    .card {
+        box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0 solid rgba(0,0,0,.125);
+        border-radius: 1rem;
+    }
