@@ -246,11 +246,12 @@ if ($result_repair && mysqli_num_rows($result_repair) > 0) {
                     <h2 class='mb-1 text-muted'>Tech Cloud Store</h2>
                   </div>
                   <div class='text-muted'>
-                    <p class='mb-1'>Address</p>
+                    <p class='mb-1' style='margin: 5px;'>No.6, Mount plasant watta, Hapugala.</p>
                     <p class='mb-1'>
-                      <i class='uil uil-envelope-alt me-1'></i> techcloud@gmail.com
+                      <i class='uil uil-envelope-alt me-1'></i> kavinduavishka80@gmail.com
                     </p>
-                    <p><i class='uil uil-phone me-1'></i> +94 10 356 5989</p>
+                    <p><i class='uil uil-phone me-1'></i> 076 159 4474 <br> <span style='margin: 5px;'>075 639 2775</span></p>
+
                   </div>
                 </div>
       
